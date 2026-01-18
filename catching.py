@@ -143,6 +143,8 @@ def basket():
 t.onscreenclick(click)
 t.onkey(left, "a")
 t.onkey(right, "d")
+t.onkey(left, "Left")
+t.onkey(right, "Right")
 t.listen()
 def mainloop():
     t.clear()
